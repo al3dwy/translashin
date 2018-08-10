@@ -1,0 +1,162 @@
+
+.wrapper {
+
+    display: grid;
+    grid-gap: 0px;
+}
+
+
+
+img {
+
+    width: 100%;
+}
+
+.top {
+height: 529px;
+position: relative;
+display: grid;
+grid-template-areas: 
+"hero";
+
+}
+
+.hero {
+
+    grid-area: hero;
+}
+
+.overlay{  
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#1A7DFE;
+    z-index: 2;
+    opacity: 0.8;
+    }
+
+
+.portofolio {
+
+    height: 500px;
+    background-color:#181a1c;
+
+
+
+}
+.boxes{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* margin-top: 20px; */
+    padding: 40px;
+}
+
+.box {
+
+    background: white;
+    padding: 10px;
+    border: 1px sold black;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0,0,0, .6)
+}
+
+
+.testmonials {
+    background: #1A7DFE;
+
+
+}
+
+.customers {
+
+    background: #181a1c;
+
+
+}
+.accordian {
+max-width: 400px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+
+.accordian li{
+list-style: none;    
+    }
+
+.gallary {
+background: #1A7DFE;
+padding: 40px;
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 10px;
+grid-auto-flow: row dense;
+
+}
+
+.gallary img {
+
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+.gallary img:hover {
+
+    transform: scale(1.1);
+    border-color: #555;
+    box-shadow: 0 0 10px #fafafa;
+}
+
+.header {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header2 {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#1A7DFE;
+    margin: 0;
+    padding: 39px 0px 0px 0px;
+
+}
+
+
+
+.footer {
+
+    background: #181a1c;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    
+}
+.footer li{
+
+    list-style: none;
+    color:#555;
+
+    
+}
+
+.footer img{
+
+    max-width: 100px;
+    max-height: 100px
+    
+}
+
+
+

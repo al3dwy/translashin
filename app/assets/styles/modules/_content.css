@@ -1,0 +1,80 @@
+.content{
+
+    background: url(../images/trgmat_bg.jpg);
+    position: relative;
+
+&__img-text {
+
+        position: absolute;
+        top: 20%;
+        max-width: 10rem;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+        font-size: .5rem;
+        z-index: 3;
+
+        @media (min-width: 530px) {
+                font-size: 1rem;
+                max-width: 30rem;
+                margin: auto;
+
+                }
+
+        @media (min-width: 800px)  {
+        font-size: 1rem;
+        color:#fff;
+
+
+} 
+
+}
+
+&__title {
+
+        font-weight: 200;
+        font-size: 1rem;
+        margin:0;
+        padding: 5px;
+
+        @media (min-width: 530px) {
+                font-size: 1.3rem;
+                color: #000;
+
+              
+}
+@media (min-width: 800px)  {
+        font-size: 2.5rem;
+        color: #000;
+      
+} 
+   
+}
+
+&__second-title {
+
+        font-weight: 100;
+        font-size: .8rem;
+        padding: 5px;
+
+        
+       
+        @media (min-width: 530px) {
+                font-size: .7rem;
+        
+}
+@media (min-width: 800px)  {
+        font-size: 1.2rem;
+        color:#fff;
+      
+
+}
+
+   
+} 
+
+}
+
+
+
+
